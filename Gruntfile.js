@@ -82,16 +82,16 @@ module.exports = function(grunt) {
         }
       }
     },
-    simplemocha: {
-      dev:{
-        src:['test/*_test.js','!test/acceptance/*_test.js'],
-        options:{
-          reporter: 'spec',
-          slow: 200,
-          timeout: 1000
-        }
-      }
-    },
+    // simplemocha: {
+    //   dev:{
+    //     src:['test/*_test.js','!test/acceptance/*_test.js'],
+    //     options:{
+    //       reporter: 'spec',
+    //       slow: 200,
+    //       timeout: 1000
+    //     }
+    //   }
+    // },
     watch: {
       all: {
         files:['server.js', '**/*.js' ],
